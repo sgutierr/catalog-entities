@@ -178,7 +178,7 @@ spec:
 
     - id: publish-gitops
       name: Publishing to Resource Repository
-      action: publish:gitlab
+      action: publish:github
       input:
         repoUrl: "${{ parameters.repo.host }}?owner=${{ parameters.repo.owner }}&repo=${{parameters.component_id}}-gitops"
         title: gitops resources for ${{ parameters.component_id }}
