@@ -110,9 +110,9 @@ spec:
               title: Repo Owner
               type: string
               description: Your SCM host organization/group
-              default: development
+              default: janus-backstage
               enum:
-                - development
+                - janus-backstage
 
   steps:
     - id: template
