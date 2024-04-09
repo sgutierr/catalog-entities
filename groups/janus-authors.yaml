@@ -7,4 +7,7 @@ metadata:
   title: Janus-IDP Authors
 spec:
   type: team
+  profile:
+    displayName: Janus team
+    email: janus@example.com  
   children: []
