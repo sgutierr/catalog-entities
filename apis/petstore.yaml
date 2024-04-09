@@ -18,7 +18,7 @@ spec:
   type: openapi
   system: janus-idp
   owner: janus-authors
-  lifecycle: development
+  lifecycle: production
   providesApis:
     - petstore  
   definition:
