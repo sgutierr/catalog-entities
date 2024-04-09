@@ -28,6 +28,7 @@ spec:
   owner: janus-authors
   lifecycle: production
   providesAPI: nexus-repo-manager3
+  consumesAPI: petstore
   dependsOn:
     - resource:pgdb
     - resource:argocd
