@@ -6,3 +6,6 @@ metadata:
 spec:
   targets:
     - ./systems/janus-idp.yaml
+    - ./systems/artist-engagement-portal-system.yaml
+    - ./systems/audio-playback-system.yaml
+    - ./systems/podcast-system.yaml 

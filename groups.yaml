@@ -6,3 +6,10 @@ metadata:
 spec:
   targets:
     - ./groups/janus-authors.yaml
+    - ./groups/infrastructure-group.yaml
+    - ./groups/boxoffice-group.yaml
+    - ./groups/backstage-group.yaml
+    - ./groups/team-a-group.yaml
+    - ./groups/team-b-group.yaml
+    - ./groups/team-c-group.yaml
+    - ./groups/team-d-group.yaml
