@@ -27,6 +27,7 @@ spec:
   system: janus-idp
   owner: janus-authors
   lifecycle: production
+  providesAPI: nexus-repo-manager3
   dependsOn:
     - resource:pgdb
     - resource:argocd
