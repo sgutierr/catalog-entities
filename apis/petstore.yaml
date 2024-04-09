@@ -22,4 +22,4 @@ spec:
   providesApis:
     - petstore  
   definition:
-    $openapi: https://raw.githubusercontent.com/sgutierr/catalog-entities/main/apis/petstore.yaml
+    $openapi: https://github.com/sgutierr/catalog-entities/blob/main/apis/petstore.oas.yaml
