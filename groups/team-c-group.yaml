@@ -8,5 +8,4 @@ spec:
   profile:
     displayName: Team C
     email: team-c@example.com
-  parent: boxoffice
   children: []
