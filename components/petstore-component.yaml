@@ -19,3 +19,5 @@ spec:
     - petstore
     - streetlights
     - hello-world
+  consumesApis:
+    - wayback-archive    
