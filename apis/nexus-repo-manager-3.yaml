@@ -14,5 +14,6 @@ spec:
   system: janus-idp
   owner: janus-authors
   lifecycle: production
+  apiProvidedBy: backstage-showcase
   definition:
     $openapi: https://github.com/janus-idp/backstage-showcase/blob/main/catalog-entities/apis/nexus-swagger.json
