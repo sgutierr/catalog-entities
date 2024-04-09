@@ -21,7 +21,7 @@ spec:
   lifecycle: production
   providesApis:
     - petstore  
-  consumesApis:
+  ApiConsumedBy:
     - searcher    
   definition:
     $openapi: https://github.com/sgutierr/catalog-entities/blob/main/apis/petstore.oas.yaml
