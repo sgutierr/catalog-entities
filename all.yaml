@@ -8,7 +8,6 @@ spec:
     - ./apis.yaml
     - ./components.yaml
     - ./groups.yaml
-    - ./domains.yaml
     - ./systems.yaml
     - ./resources.yaml
 
