@@ -7,14 +7,27 @@ metadata:
     [The Petstore](http://petstore.example.com) is an example API used to show features of the OpenAPI spec.
     - First item
     - Second item
+  links:    
+    - title: Petstore service
+      url: https://janus-idp.io
+    - title: Janus Showcase
+      url: https://showcase.janus-idp.io/
+    - title: Blog
+      url: https://janus-idp.io/blog
+    - title: Slack
+      url: https://join.slack.com/t/janus-idp/shared_invite/zt-1pxtehxom-fCFtF9rRe3vFqUiFFeAkmg    
+  tags:
+    - java
+    - quarkus    
   links:
     - url: https://github.com/swagger-api/swagger-petstore
       title: GitHub Repo
       icon: github
 spec:
   type: service
-  lifecycle: experimental
+  lifecycle: development
   owner: user1
+  system: janus-idp  
   providesApis:
     - petstore
     - streetlights
