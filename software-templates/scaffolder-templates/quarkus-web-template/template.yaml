@@ -45,6 +45,11 @@ spec:
           type: string
           description: Help others understand what this website is for.
           default: A cool quarkus app
+        cluster:
+          title: OpenShift cluster
+          type: string
+          description: Cluster to create the environments
+          default: .apps.ocp4.quitala.eu          
     - title: Provide Image Registry Information
       required:
         - image_registry
@@ -130,7 +135,6 @@ spec:
           artifact_id: ${{ parameters.artifact_id }}
           java_package_name: ${{ parameters.java_package_name }}
           owner: ${{ user.entity.metadata.name }}
-          cluster: .apps.ocp4.quitala.eu
           host: ${{ parameters.repo.host }}
           destination: ${{ parameters.repo.owner }}/${{ parameters.component_id }}
           quay_destination: ${{ parameters.image_organization}}/${{ parameters.component_id }}
@@ -164,7 +168,6 @@ spec:
           source_repository: https://${{ parameters.repo.host }}/${{ parameters.repo.owner }}/${{parameters.component_id}}.git
           repository_name: ${{parameters.component_id}}
           git_owner: ${{ parameters.repo.owner }}
-          cluster: .apps.ocp4.quitala.eu
           namespace: ${{ parameters.component_id }}-dev
           image_registry: ${{ parameters.image_registry }}
           image_host: ${{ parameters.image_host }}
