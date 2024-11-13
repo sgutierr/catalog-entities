@@ -15,3 +15,4 @@ spec:
      - https://github.com/sgutierr/catalog-entities/blob/main/software-templates/scaffolder-templates/quarkus-web-template/template.yaml
      - https://github.com/sgutierr/catalog-entities/blob/main/software-templates/scaffolder-templates/argocd-template/template.yaml
      - https://github.com/sgutierr/catalog-entities/blob/main/software-templates/scaffolder-templates/ansible-job/template.yaml
+     - https://github.com/sgutierr/catalog-entities/blob/main/software-templates/scaffolder-templates/jboss-eap-vm-template/template.yaml
