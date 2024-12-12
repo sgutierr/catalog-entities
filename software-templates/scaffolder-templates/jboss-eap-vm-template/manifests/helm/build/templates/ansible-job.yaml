@@ -8,6 +8,6 @@ spec:
   workflow_template_name: ${{values.ansibleJob}}
   extra_vars:
     my_namespace: ${{values.component_id}}-dev
-    my_git_repo: ${{ values.repository_name }}
+    my_git_repo: ${{ values.source_repository }}
     my_app_directory: ${{values.component_id}}
     my_app_path_to_pomxml: /pom.xml
