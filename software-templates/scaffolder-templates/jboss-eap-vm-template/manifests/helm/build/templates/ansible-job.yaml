@@ -1,7 +1,7 @@
 apiVersion: tower.ansible.com/v1alpha1
 kind: AnsibleJob
 metadata:
-  name: example-job
+  name: example-job-${{values.component_id}}
   namespace: aap
 spec:
   connection_secret: controller-access
