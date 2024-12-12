@@ -167,6 +167,7 @@ spec:
           repository_host: ${{ parameters.repo.host }}
           deployment_name: quarkus-template
           user: ${{ user.entity.metadata.name }}
+          ansibleJob: ${{ parameters.ansibleJob }}          
           argonamespace: openshift-gitops
         targetPath: ./tenant-gitops
 
