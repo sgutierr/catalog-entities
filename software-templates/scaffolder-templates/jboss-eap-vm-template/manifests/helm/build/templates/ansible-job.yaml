@@ -5,7 +5,7 @@ metadata:
   namespace: aap
 spec:
   connection_secret: controller-access
-  workflow_template_name: ${{values.ansibleJob}}
+  workflow_template_name: '${{values.ansibleJob}}''
   extra_vars:
     my_namespace: ${{values.component_id}}-dev
     my_git_repo: ${{ values.source_repository }}
