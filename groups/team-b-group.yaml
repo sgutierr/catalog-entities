@@ -73,7 +73,18 @@ metadata:
   name: user1
 spec:
   profile:
-    displayName: Justine Barrow
-    email: justine-barrow@example.com
+    displayName: user1
+    email: user1@example.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Sassy&backgroundColor=transparent
+  memberOf: [team-b]  
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user2
+spec:
+  profile:
+    displayName: user2
+    email: user2@example.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Bailey&backgroundColor=transparent
   memberOf: [team-b]  
