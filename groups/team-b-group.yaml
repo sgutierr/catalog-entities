@@ -66,3 +66,14 @@ spec:
     email: justine-barrow@example.com
     picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Sassy&backgroundColor=transparent
   memberOf: [team-b]
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: user1
+spec:
+  profile:
+    displayName: Justine Barrow
+    email: justine-barrow@example.com
+    picture: https://api.dicebear.com/7.x/avataaars/svg?seed=Sassy&backgroundColor=transparent
+  memberOf: [team-b]  
